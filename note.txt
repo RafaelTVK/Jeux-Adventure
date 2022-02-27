@@ -1,0 +1,3 @@
+Modif du statut de la quete ->> reprise du statut modifié pour regarder les quetes
+
+Deplacement des quetes vers la classe Game

@@ -1,0 +1,26 @@
+{
+  "robin": {
+    "queteR1": [
+      1,
+      "Trouver le donjon",
+      "enter_donjon1",
+      "Bravo, vous avez trouve le donjon !"
+    ]
+  },
+  "paul": {
+    "queteP1": [
+      1,
+      "Parlez a boss",
+      "boss_path1",
+      "Bravo vous avez parlez a Boss"
+    ]
+  },
+  "boss": {
+    "queteB1": [
+      1,
+      "Retournez voir Robin",
+      "robin_path1",
+      "Bravo vous etes revenu voir boss"
+    ]
+  }
+}
