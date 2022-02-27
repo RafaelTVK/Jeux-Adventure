@@ -62,7 +62,7 @@ class MapManager:
         self.register_map("magic", portals=[
             Portal(from_world="magic",originPoint="exit_magic",targetWorld="donjon1",teleportPoint="enter_exit_magic"),
             Portal(from_world="magic", originPoint="enter_house5", targetWorld="house5", teleportPoint="spawn_point5"),
-            Portal(from_world="magic", originPoint="enter_house5", targetWorld="house6", teleportPoint="spawn_point6")
+            Portal(from_world="magic", originPoint="enter_house6", targetWorld="house6", teleportPoint="spawn_point6")
         ])
 
         self.teleport_player("player")
