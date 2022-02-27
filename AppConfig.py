@@ -1,4 +1,4 @@
-# Config for all Apps
+# Config for all Apps....
 
 # APP
 ECRAN = (800, 600)
