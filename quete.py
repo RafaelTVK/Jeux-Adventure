@@ -1,9 +1,7 @@
 import json 
 from AppConfig import *
 
-
 # class qui va gérer les quetes
-
 class QueteManager:
     def __init__(self) -> None:
         self.quetes = self.loadQuetes()
@@ -43,10 +41,24 @@ class QueteManager:
         if not self.quetes[npc][quetename][0]:
             self.quetes[npc][quetename][0] = 1
 
+    def render(self):
+        a = []
+        b = []
+
+        for npc in self.quetes:
+
+            for quete in self.quetes[npc]:
+
+                a.append([self.quetes[npc][quete][1], self.quetes[npc][quete][0]])
+                b.append([npc, quete])
+        return a, b
+        pass
+
 
 if __name__=="__main__":
-
     q = QueteManager()
-    q.getText("robin","")
+    print(q.render())
+
+    pass
     
     
