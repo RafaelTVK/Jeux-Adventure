@@ -1,15 +1,21 @@
 {
   "robin": {
     "queteR1": [
-      1,
+      0,
       "Trouver le donjon",
       "enter_donjon1",
       "Bravo, vous avez trouve le donjon !"
+    ],
+    "queteR2": [
+      0,
+      "Trouver le monde magic",
+      "enter_magic",
+      "Bravo, vous avez trouve le monde magic !"
     ]
   },
   "paul": {
     "queteP1": [
-      1,
+      0,
       "Parlez a boss",
       "boss_path1",
       "Bravo vous avez parlez a Boss"
@@ -17,7 +23,7 @@
   },
   "boss": {
     "queteB1": [
-      1,
+      0,
       "Retournez voir Robin",
       "robin_path1",
       "Bravo vous etes revenu voir boss"
